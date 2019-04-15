@@ -1,0 +1,17 @@
+.Rte-panel {
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+.Rte-panel li {
+  list-style: none;
+  padding: 5px;
+  flex: 0 1 auto;
+  cursor: pointer;
+  user-select: none;
+}

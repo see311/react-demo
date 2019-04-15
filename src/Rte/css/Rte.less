@@ -1,0 +1,56 @@
+@import "./reset.css";
+
+.Rte-wrap {
+  width: 100%;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Rte-wrap li {
+  list-style: none;
+}
+.Rte-wrap.active {
+  border: 1px solid #666;
+}
+.Rte-wrap .counter::before {
+  content: attr(data-count);
+  line-height: 1;
+  color: #bbb;
+  position: absolute;
+  right: 24px;
+  bottom: 8px;
+}
+.Rte-container {
+  width: 100%;
+  min-height: 100px;
+  max-height: 400px;
+  overflow: auto;
+  border-radius: 0 0 4px 4px;
+  padding: 14px;
+  box-sizing: border-box;
+  position: relative;
+}
+.Rte-container:focus {
+  outline: none;
+}
+.Rte-container.empty::before {
+  content: attr(placeholder);
+  color: #bbb;
+  line-height: 1.2;
+  font-style: italic;
+  position: absolute;
+  pointer-events: none;
+}
+.Rte-container .Rte-container p {
+  line-height: 1.2;
+  margin: 0;
+}
+.Rte-wrap .Rte-menu .Rte-menu-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Rte-wrap .Rte-menu i {
+  font-style: normal;
+}

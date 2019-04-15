@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Rte-icon';
+    src:  url('../fonts/Rte-icon.woff')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="Rte-icon-"], [class*=" Rte-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Rte-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .Rte-icon-close:before {
+    content: "\f00d";
+  }
+  .Rte-icon-upload2:before {
+    content: "\e9c6";
+  }
+  .Rte-icon-trash-o:before {
+    content: "\f014";
+  }
+  .Rte-icon-header:before {
+    content: "\f1dc";
+  }
+  .Rte-icon-pencil2:before {
+    content: "\e906";
+  }
+  .Rte-icon-paint-brush:before {
+    content: "\f1fc";
+  }
+  .Rte-icon-image:before {
+    content: "\e90d";
+  }
+  .Rte-icon-play:before {
+    content: "\e912";
+  }
+  .Rte-icon-location:before {
+    content: "\e947";
+  }
+  .Rte-icon-undo:before {
+    content: "\e965";
+  }
+  .Rte-icon-redo:before {
+    content: "\e966";
+  }
+  .Rte-icon-quotes-left:before {
+    content: "\e977";
+  }
+  .Rte-icon-list-numbered:before {
+    content: "\e9b9";
+  }
+  .Rte-icon-list2:before {
+    content: "\e9bb";
+  }
+  .Rte-icon-link:before {
+    content: "\e9cb";
+  }
+  .Rte-icon-emoji:before {
+    content: "\e9df";
+  }
+  .Rte-icon-bold:before {
+    content: "\ea62";
+  }
+  .Rte-icon-underline:before {
+    content: "\ea63";
+  }
+  .Rte-icon-italic:before {
+    content: "\ea64";
+  }
+  .Rte-icon-strikethrough:before {
+    content: "\ea65";
+  }
+  .Rte-icon-table2:before {
+    content: "\ea71";
+  }
+  .Rte-icon-paragraph-left:before {
+    content: "\ea77";
+  }
+  .Rte-icon-paragraph-center:before {
+    content: "\ea78";
+  }
+  .Rte-icon-paragraph-right:before {
+    content: "\ea79";
+  }
+  .Rte-icon-terminal:before {
+    content: "\f120";
+  }
+  .Rte-icon-page-break:before {
+    content: "\ea68";
+  }
+  .Rte-icon-cancel-circle:before {
+    content: "\ea0d";
+  }
+  .Rte-icon-font:before {
+    content: "\ea5c";
+  }
+  .Rte-icon-text-heigh:before {
+    content: "\ea5f";
+  }
